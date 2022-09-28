@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+[class*="__container"]{
+max-width: 1230px;
+margin: 0 auto;
+}
+body{
+font-family: "Lato";
+}
+h1{
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+color: #1E212C;
+margin-bottom: 40px;
+}
+.page__text{
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #424551;
+}
+h3{
+font-weight: 700;
+font-size: 28px;
+line-height: 150%;
+color: #1E212C;
+margin-bottom: 24px;
+
+}
+.page__text ul{
+margin-bottom: 200px;
+}
+.page__text li{
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #424551;
+padding-left: 32px;
+background: url(../img/icons/check.png) 0 6px no-repeat;
+}
+.page__text li:not(:last-child) {
+    margin-bottom: 4px;	
+} 
+h6{
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #1E212C;
+}
+h1:nth-child(even){
+margin-bottom: 16px;
+}
+.page__senior{
+margin-bottom: 32px;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #787A80;
+}
+.page__list{
+margin-bottom: 32px;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+}
+.page__list li:nth-child(1){
+background: url(../img/icons/Star.png) 0 6px no-repeat;
+padding-left: 24px;    
+}
+.page__list li:nth-child(2){
+    background: url(../img/icons/Play.png) 0 6px no-repeat;
+    padding-left: 24px; 
+}
+.page__list li:nth-child(3){
+    background: url(../img/icons/Person.png) 0 6px no-repeat;
+    padding-left: 24px; 
+}
+.page__list li:not(:last-child) {
+margin-bottom: 4px;	
+} 
+main{
+    margin-bottom: 136px;
+}
+.home-work{
+max-width: 1230px;
+margin: 0 auto;
+font-weight: 700;
+font-size: 22px;
+line-height: 150%;
+color: #1E212C;
+}
+.link-hover:hover{
+    color: orange;
+}
+.link-active:active{
+    color: blue;
+}
+.link-visited:visited{
+    color: purple;
+}
+.link-focus:focus{
+    border: 3px double gold;
+}
+.block{
+    background-color: lightblue;
+    color: orange;
+    display: none;
+}
+.block:target{
+    display: block;
+}
+.text p:first-child{
+color: orange;
+}
+.text p:last-child{
+color: blue;
+}
+.text-two p:nth-child(odd){
+color: purple;
+}
+.text-two p:nth-child(even){
+    color: plum;
+}
+.text-two p:nth-child(5){
+    color: rgb(93, 103, 189);
+}
+.text-three p:first-of-type{
+color: orange;
+}
+.text-three p:last-of-type{
+    color: blue;
+}
+ul.list-two{
+    margin-left: 20px;
+}
+.list-two li{   
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    padding-left: 32px;
+}
+.list-two li::before{
+    background: url(../img/icons/Star.png) 0 6px no-repeat;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    min-height: 20px;
+}
+.list-two li::after{
+    background: url(../img/icons/Star.png) 0 6px no-repeat;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    min-height: 20px;
+}
